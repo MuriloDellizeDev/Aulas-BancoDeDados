@@ -5,7 +5,7 @@ USE Optus;
 
 */
 
---	(INSERT - Inserir)
+---	(INSERT - Inserir)
 	
 	INSERT INTO Usuario (Nome, Permissão, Senha, Email) VALUES 
 
