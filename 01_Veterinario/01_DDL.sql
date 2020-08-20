@@ -42,14 +42,14 @@ CREATE TABLE Clinica(
 
 
 
-/*Criamos uma tabela raças e profissional veterinario*/
+/*Criamos uma tabela raï¿½as e profissional veterinario*/
 
 CREATE TABLE Raca(
 
 	IdRaca INT IDENTITY PRIMARY KEY NOT NULL,
 	Descricao VARCHAR(100) NOT NULL,
 
-	-- FK CHAVE ESTRANGEIRA
+ 	-- FK CHAVE ESTRANGEIRA
 
 	IdTipoDePet INT FOREIGN KEY REFERENCES TipoDePet(IdTipoDePet),
 	
